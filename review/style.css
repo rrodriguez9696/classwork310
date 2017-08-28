@@ -1,0 +1,52 @@
+body {
+    font-size: 14px;
+    background: grey;
+    color: cornflowerblue;
+}
+
+#home{
+    color: darkorchid;
+    background: black;
+    font-size: 2em;
+}
+
+a{
+    color: aliceblue;
+    transition: color 500ms;
+}
+a:hover {
+    color: darkgoldenrod;
+}
+a:active {
+    color: fuchsia;
+}
+h1{
+    margin:0;
+}
+ul{
+    padding:0;
+}
+
+ul a {
+    color: aqua;
+}
+
+li {
+    border: 2px dotted;
+    margin: 0.25em 1em;
+    display:inline;
+}
+
+img {
+    width: 100%;
+    top: 100px;
+    position: relative;
+    transition: width 1s;
+}
+
+
+img:hover{
+    width: 200%;
+    top: 500px
+}
+
