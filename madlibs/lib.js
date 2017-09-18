@@ -16,6 +16,12 @@ var verb = document.getElementById("verb");
     message.innerText = "Please input a name.";
 }
 
+if (noun.value.length < 4)  {
+   message.innerText = "Enter a noun longer than 4 characters."; 
+} 
+    
+
+
 
 
 
