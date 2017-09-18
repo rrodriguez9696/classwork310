@@ -16,9 +16,7 @@ var verb = document.getElementById("verb");
     message.innerText = "Please input a name.";
 }
 
-if () {
-    //code
-}
+
 
 
 };
