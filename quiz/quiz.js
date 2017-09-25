@@ -18,7 +18,7 @@ var myQuestions = [
 		correctAnswer: 'a'
 	},
     {
-		question: "What is the name of Thor's hammer?",
+		question: "What is Superman's one weaknes?",
 		answers: {
 			a: 'Batman',
 			b: 'Doomsday',
