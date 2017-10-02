@@ -1,0 +1,26 @@
+#container{
+    margin: 0 auto;
+    text-align: center;
+    font-family: monospace;
+}
+
+#design{
+    color:aqua;
+    font-family: fantasy;
+}
+#inspired{
+    color: cornflowerblue;
+    font-family: fantasy;
+}
+#thatis{
+    color: crimson;
+    font-family: fantasy;
+}
+#through{
+    color: darkcyan;
+    font-family: fantasy;
+}
+#using{
+    color: darkmagenta;
+    font-family: fantasy;
+}
