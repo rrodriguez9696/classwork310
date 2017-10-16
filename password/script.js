@@ -1,9 +1,13 @@
-function generatePassword() {
-    var length = 8,
-        charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
-        retVal = "";
-    for (var i = 0, n = charset.length; i < length; ++i) {
-        retVal += charset.charAt(Math.floor(Math.random() * n));
+var keylist="abcdefghijklmnopqrstuvwxyz123456789!@#$%^&*(){}+_-,./';]["
+var temp=''
+
+function generatepass(plength) {
+    temp=''
+    for(i=0; i<plength;i++) 
+        temp+=keylist.charAt(Math.floor(Math.random()*keylist.length))
+     return temp    
     }
-    return retVal;
-}
+
+    function populateform(enterlength) {
+        document.pgenerate.output.value = generatepass(enterlength)
+    }
