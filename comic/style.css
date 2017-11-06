@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+background-color:darkseagreen;
+font-family:sans-serif;
+font-size: 1.2em;
+font-weight: bold;
+padding: 30px 40px;
+text-align: center;
+}
+
+.slide.image{
+text-align: center;
+}
