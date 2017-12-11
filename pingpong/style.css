@@ -1,5 +1,50 @@
 canvas {
 background: #111;
-margin-top: 15vh;
-margin-left:25vw;
+border-style: inset;
+    
+}
+
+#container{
+    background-color:cadetblue;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#gif1{
+    width:200px;
+	height:200px;
+	display:inline-block;
+	background: green;
+	margin: 10px;
+	box-sizing: border-box;
+    border-style: inset;
+}
+#gif2 {
+    width:200px;
+	height:200px;
+	display:inline-block;
+	background: yellow;
+	margin: 10px;
+	box-sizing: border-box;
+    border-style: inset;
+    
+}
+
+#gif3 {
+    width:200px;
+	height:200px;
+	display:inline-block;
+	background: orange;
+	margin: 10px;
+	box-sizing: border-box;
+    border-style: inset;
+}
+restart {
+    width: 75%;
+    text-align: center;
+    border-style:double;
+    height: 20px;
 }
